@@ -1,0 +1,35 @@
+﻿---
+import Header from "../components/Header.astro";
+import Objetivos from "../components/Objetivos.astro";
+import Descripcion from "../components/Descripcion.astro";
+import Alcance from "../components/Alcance.astro";
+import Limites from "../components/Limites.astro";
+import Beneficios from "../components/Beneficios.astro";
+import Footer from "../components/Footer.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+	<Header />
+	<section
+		style="text-align:center; margin-bottom: 40px; background: none; box-shadow: none;"
+	>
+		<h2 style="font-size:2.2rem; color:#1a73e8; margin-bottom:0.5em;">
+			¡Mudate fácil, decora mejor!
+		</h2>
+		<p
+			style="font-size:1.3rem; color:var(--em-text-sec, #333); max-width:600px; margin:0 auto 1.5em;"
+		>
+			La app que revoluciona mudanzas y decoración con realidad aumentada.
+			Medí, planificá y visualizá tus espacios en segundos.
+		</p>
+		<a
+			href="#"
+			style="display:inline-block; background:#1a73e8; color:#fff; padding:16px 36px; border-radius:32px; font-size:1.2rem; text-decoration:none; font-weight:bold; box-shadow:0 2px 8px rgba(26,115,232,0.12); transition:background 0.2s;"
+			>¡Probar EasyMoving!</a
+		>
+	</section>
+	<Alcance />
+	<Beneficios />
+	<Footer />
+</Layout>

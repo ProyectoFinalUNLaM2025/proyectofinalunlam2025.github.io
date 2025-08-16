@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<!-- Favicon PNG para todos los navegadores -->
+		<link rel="icon" type="image/png" href="/favicon.png" sizes="any" />
+		<meta name="generator" content={Astro.generator} />
+		<title>EasyMoving</title>
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		font-family: "Segoe UI", Arial, sans-serif;
+	}
+</style>
